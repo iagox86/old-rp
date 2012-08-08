@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link href="include/FancyTable.css" rel="stylesheet" type="text/css">
+    <link href="include/rp.css"         rel="stylesheet" type="text/css">
+	%%%HEAD%%%
+
+    <script text='text/javascript'>
+		%%%SCRIPT%%%
+    </script>
+</head>
+
+<body>
+	%%%BODY%%%
+	%%%MENU%%% 
+
+	<form method='post'>
+		<input type='hidden' name='page' value='login'>
+
+		<span style='color: green; text-align: right;'>%%%MESSAGE%%%</span>
+
+		<table width='500'>	
+			<tr> 
+				<td colspan='2'>Please log in</td> 
+			</tr>
+			<tr> 
+				<td>Username</td> 
+				<td>%%%USERNAME%%%</td> 
+			</tr>
+			<tr> 
+			<td>Password</td> 
+				<td>%%%PASSWORD%%%</td> 
+			</tr>
+			<tr>
+				<td colspan='2' style='align: right'>%%%SUBMIT%%%</td>
+			</tr>
+			<tr>
+				<td colspan='2'>Don't have an account? <a href='%%%PAGE:create%%%'>Create one</a>!</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+

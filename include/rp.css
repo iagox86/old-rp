@@ -1,0 +1,57 @@
+img
+{
+	border: 0;
+}
+
+body
+{
+	background: #FFFFFF;
+	font-size: 12px;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+td
+{
+	font-size: 12px;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+a
+{
+	color: #000040;
+	text-decoration: underline;
+}
+
+a.menuitem
+{
+	text-decoration: none;
+}
+
+.rpmenu_table
+{
+	width: 100%;
+}
+
+.rpmenu_row
+{
+}
+
+.rpmenu_cell
+{
+	background: #CCCCCC;
+	padding: 5;
+	/*width: 200px;*/
+}
+
+.rpmenu_paddingcell
+{
+	background: #CCCCCC;
+	width: 100%;
+}
+
+.rpmenu_cell_rollover
+{
+	background: #808080;
+	padding: 5;
+}
+
